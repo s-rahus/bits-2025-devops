@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, Flask!"
+    return "Hello, BITS!"
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
